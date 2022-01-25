@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  display: block;
+  position: relative;
+  margin: 130px 500px;
+  background-image: url("assets/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+img {
+  padding: 0;
+  margin: 0;
+  border-radius: 15px 15px 0 0;
+}
+.zz {
+  width: 400px;
+  height: 400px;
+  background: hsl(225, 100%, 98%);
+  border-radius: 0 0 15px 15px;
+}
+h2 {
+  margin-top: -5px;
+  padding: 40px 0 0 120px;
+  font-weight: 900;
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(223, 47%, 23%);
+}
+p {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 0.5em;
+  color: hsl(224, 23%, 55%);
+}
+.p1 {
+  margin-left: 75px;
+}
+.p2 {
+  margin-left: 70px;
+}
+.p3 {
+  margin-left: 150px;
+}
+.sum {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+}
+.sum p {
+  line-height: 1.5em;
+  margin-left: -35px;
+}
+.we {
+  color: hsl(223, 47%, 23%);
+}
+button {
+  font-family: "Red Hat Display", sans-serif;
+}
+.sum button {
+  border: none;
+  margin-left: 30px;
+  background-color: hsl(225, 100%, 98%);
+  text-decoration: underline;
+  color: blue;
+}
+.sum button:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: hsl(224, 23%, 55%);
+}
+.btn1 button {
+  margin: 20px 0 30px 40px;
+  width: 325px;
+  height: 45px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+.btn1 button:hover {
+  background-color: hsl(224, 23%, 55%);
+  color: hsl(225, 100%, 94%);
+  cursor: pointer;
+}
+.btn2 button {
+  margin-left: 150px;
+  border: none;
+  background-color: hsl(225, 100%, 98%);
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+.btn2 button:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url("assets\pattern-background-mobile.svg");
+    margin: 75px 10px 15px 15px;
+  }
+  .imn {
+    width: 350px;
+  }
+  .zz {
+    width: 350px;
+    height: 350px;
+  }
+  h2 {
+    padding: 25px 0 0px 80px;
+  }
+  .p1 {
+    margin-left: 45px;
+  }
+  .p2 {
+    margin-left: 40px;
+  }
+  .p3 {
+    margin-left: 100px;
+  }
+  .btn1 button {
+    margin: 10px 0 15px 15px;
+  }
+  .btn2 button {
+    margin-left: 125px;
+  }
+}
