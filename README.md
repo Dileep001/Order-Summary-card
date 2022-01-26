@@ -9,8 +9,8 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Links
-- Solution URL: [Add solution URL here]https://github.com/Dileep001/Order-Summary-card)
-- Live Site URL: [Add live site URL here](https://dileep001.github.io/Order-Summary-card/)
+- Solution URL: (https://github.com/Dileep001/Order-Summary-card)
+- Live Site URL: (https://dileep001.github.io/Order-Summary-card/)
 
 ## My process
 
